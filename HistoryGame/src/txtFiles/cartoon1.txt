@@ -1,0 +1,9 @@
+s1,s2,s3;this is an interpretation;caption
+s1,s2,s3;this is an interpretation;caption
+s1,s2,s3;this is an interpretation;caption
+
+String[]a;
+a=br.readLine().split(";");
+String[] symbols=a[0].split(",");
+
+load "images/"+a[3];

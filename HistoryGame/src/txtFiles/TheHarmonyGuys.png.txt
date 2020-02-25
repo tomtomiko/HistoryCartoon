@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><root><caption>c1</caption><briefInterpretation>b1</briefInterpretation><symbols>Caption number 1</symbols></root>

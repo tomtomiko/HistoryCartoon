@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><root><caption>This is  caption number 1
+</caption><briefInterpretation>brief interpretation of harmony guys</briefInterpretation><symbols>symbols of the harmony guys</symbols></root>

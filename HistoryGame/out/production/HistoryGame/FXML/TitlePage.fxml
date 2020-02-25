@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>  <!--This tells you you are working with xml version 1.0
+                                            and you are using UTF-8 to run your program
+                                            and all the good stuff.-->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="AnchorPaneStart" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0"
+            style="-fx-background-color: #3399FF;"
+            xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Classes.TitlePageController">
+   <BorderPane layoutX="-6.0" layoutY="-7.0" prefHeight="413.0" prefWidth="612.0" AnchorPane.bottomAnchor="-6.0"
+               AnchorPane.leftAnchor="-6.0" AnchorPane.rightAnchor="-6.0" AnchorPane.topAnchor="-7.0">
+      <center>
+         <Button fx:id="startButton" mnemonicParsing="false" onAction="#ButtonStart" prefHeight="93.0" prefWidth="168.0"
+                 style="-fx-background-color: white;" text="START" BorderPane.alignment="CENTER">
+            <font>
+               <Font name="System Bold" size="29.0"/>
+            </font>
+         </Button>
+      </center>
+      <top>
+         <BorderPane prefHeight="150.0" prefWidth="631.0" BorderPane.alignment="CENTER">
+            <top>
+               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mr. Kindji's Cartoon Game" textAlignment="CENTER"
+                     BorderPane.alignment="CENTER">
+                  <font>
+                     <Font name="Arial" size="36.0"/>
+                  </font>
+               </Text>
+            </top>
+            <bottom>
+               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Press the start button to begin"
+                     textAlignment="CENTER" BorderPane.alignment="CENTER">
+                  <font>
+                     <Font name="Arial" size="23.0"/>
+                  </font>
+                  <BorderPane.margin>
+                     <Insets top="20.0"/>
+                  </BorderPane.margin>
+               </Text>
+            </bottom>
+            <center>
+               <Line endX="400.0" startX="-100.0" BorderPane.alignment="CENTER">
+                  <BorderPane.margin>
+                     <Insets top="10.0"/>
+                  </BorderPane.margin>
+               </Line>
+            </center>
+            <padding>
+               <Insets bottom="20.0" top="40.0"/>
+            </padding>
+         </BorderPane>
+      </top>
+      <padding>
+         <Insets bottom="120.0"/>
+      </padding>
+   </BorderPane>
+</AnchorPane>

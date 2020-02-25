@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="EditListModePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Classes.EditListModeController">
+    <Text layoutX="225.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EDIT LIST">
+        <font>
+            <Font size="36.0" />
+        </font>
+    </Text>
+    <Line endX="394.0" layoutX="163.0" layoutY="65.0" startX="-120.0" />
+    <Button fx:id="homeButton" layoutX="499.0" layoutY="18.0" mnemonicParsing="false" onAction="#EditListModeButton" prefHeight="43.0" prefWidth="18.0" style="-fx-background-color: #3399ff;">
+        <font>
+            <Font size="22.0" />
+        </font>
+        <graphic>
+            <ImageView fitHeight="55.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="@../imagesSceneBuilder/houseEmoticon.png" />
+            </ImageView>
+        </graphic>
+    </Button>
+   <AnchorPane layoutX="39.0" layoutY="87.0" prefHeight="204.0" prefWidth="493.0" style="-fx-border-color: black;">
+      <children>
+         <Pane fx:id="pane" layoutX="-2.0" layoutY="3.0" prefHeight="196.0" prefWidth="493.0" />
+      </children>
+   </AnchorPane>
+    <children>
+    </children>
+</AnchorPane>
